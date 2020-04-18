@@ -9,6 +9,7 @@ To run the application, you need:
 2) Set the connection string in the config file 'app-api/Presentation/AppWeather.Api/appsettings.json'.
 3) In Package Manager Console chose the AppWeather.Persistence.Migrations project and run the commands:
      >Add-Migration InitialCreate
+     
      >Update-Database 
   
 4) Change the post execution (not mandatory), but you will need it to configure the ui for step 5
