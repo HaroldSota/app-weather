@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\AppWeather.Core\AppWeather.Core.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\AppWeather.ExternalServices\AppWeather.ExternalServices.csproj" />
+    <ProjectReference Include="..\..\Persistence\AppWeather.Persistence\AppWeather.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>
